@@ -4,6 +4,8 @@ Cobalt2 is a theme by Wes Bos for [Sublime Text](https://packagecontrol.io/packa
 
 This is for Prism.js syntax highlighting.
 
+![](http://wes.io/e2R9/content)
+
 ## Languages Ported
 
 I'd like to port every language, feel free to chip in! 
