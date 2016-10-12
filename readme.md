@@ -11,9 +11,12 @@ This is for Prism.js syntax highlighting.
 I'd like to port every language, feel free to chip in and help. The colours should be taken from [this theme](https://github.com/wesbos/cobalt2/blob/master/cobalt2.tmTheme). I find it's easiest to open some code in the Sublime theme and try to match it as close as possible.
 
 * [x] JavaScript
-* [ ] CSS
-* [ ] Markup (HTML)
-* [ ] Sass
+* [x] CSS
+* [x] Markup (HTML)
+* [x] Markdown
+* [x] JSON
+* [x] YAML
+* [x] SCSS
 * [ ] Stylus
 
 ## Using
