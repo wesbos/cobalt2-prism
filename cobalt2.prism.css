@@ -1,6 +1,6 @@
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript&plugins=show-language+highlight-keywords */
 /**
- * Cobalt2 theme for JavaScript, CSS and HTML
+ * Cobalt2 theme for JavaScript, CSS, HTML, Markdown, JSON, YAML, and SCSS
  * @author wesbos
  * Works best when "Show Language" and "Highlight Keywords" plugins are included
  */
@@ -156,4 +156,105 @@ pre[class*="language-"] {
   cursor: help;
 }
 
+/* CSS requires Prism: CSS, CSS-Extras */
 
+code.language-css,
+.token.hexcode,
+.language-css .token.boolean,
+.language-css .token.number {
+  color: #EDF080;
+}
+
+.language-css .token.selector {
+  color: #9EFFFF;
+}
+
+.language-css .token.class,
+.language-css .token.selector .token.class,
+.language-css .token.attribute {
+  color:#3AD900;
+}
+
+.language-css .token.property {
+  color: #9DF39F;
+}
+
+.token.pseudo-class {
+  color:#FF9A1A;
+}
+
+/* HTML Markup */
+
+.language-markup .token.tag,
+.token.doctype {
+  color:#9EFFFF;
+}
+
+.language-markup .attr-name {
+ color:#ffc600;
+ font-style: italic;
+}
+.language-markup .attr-value {
+  color:#3AD900;
+}
+
+/* Markdown */
+
+.language-markdown .title {
+  background:#000;
+  color:#FDC500;
+}
+
+.language-markdown .url {
+  color:#3AD900;
+}
+
+.language-markdown .list.punctuation {
+  color:#FF9A1A;
+}
+
+/* JSON */
+
+.language-json .property {
+  color:#3AD900;
+}
+
+.language-json .operator {
+  color:#f8f8f2;
+}
+
+/* YAML */
+
+code.language-yaml {
+  color:#3AD900;
+}
+
+.language-yaml .boolean {
+  color:#F85B79;
+}
+
+/* SCSS */
+
+code.language-scss {
+  color:#E68885;
+}
+
+.language-scss .property {
+  color:#80FFBB;
+}
+
+.language-scss .keyword {
+  color:#FF9A1A;
+}
+
+.language-scss .token.variable {
+  color:#ccc;
+}
+
+.language-scss .hexcode {
+  color:#F85B79;
+}
+
+.language-scss .function {
+  color:#fff;
+}
