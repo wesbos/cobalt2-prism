@@ -1,0 +1,23 @@
+{
+  "name": "@wesbos/cobalt2-prismjs",
+  "version": "1.0.0",
+  "description": "Cobalt2 port of Prism JS",
+  "main": "cobalt2.prism.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesbos/cobalt2-prism.git"
+  },
+  "keywords": [
+    "cobalt2",
+    "prism"
+  ],
+  "author": "Wes Bos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesbos/cobalt2-prism/issues"
+  },
+  "homepage": "https://github.com/wesbos/cobalt2-prism#readme"
+}
